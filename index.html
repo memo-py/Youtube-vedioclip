@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video Downloader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="youtube logo.png" alt="YouTube Logo">
+            <h1>YouTube Video Downloader</h1>
+        </nav>
+        <div class="form-container">
+            <form action="index.php" method="post">
+                <div class="input-group">
+                    <input type="text" name="link" placeholder="Enter the YouTube link" required>
+                </div>
+                <div class="input-group">
+                    <input type="text" name="start_time" placeholder="Enter the start time (optional)">
+                    <input type="text" name="end_time" placeholder="Enter the end time (optional)">
+                </div>
+                <button type="submit" name="submit" class="submit-btn">DOWNLOAD</button>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <section class="how-to-use">
+            <h2>How to Use</h2>
+            <p>
+                Enter the YouTube video link in the first field. Optionally, specify the start and end times for downloading a specific portion of the video. Hit "DOWNLOAD" to start the process.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 YouTube Video Downloader | Designed by <a href="#">Aaditya Singh</a></p>
+        <p>Follow us: 
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
